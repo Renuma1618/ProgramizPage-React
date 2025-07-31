@@ -1,0 +1,83 @@
+.body {
+  text-align: center;
+  margin-top: 80px;
+  
+  
+}
+
+.body h1 {
+  font-size: 2.5rem;
+  color: #273654;
+  font-weight: 700;
+  margin-bottom: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 28px;
+  padding:  20px 400px 0px 400px;
+  align-items: center;
+  
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.0rem;
+  padding: 12px 10px;
+  background-color: #fcfcfc;
+  border: 1px solid rgb(227, 226, 226);
+  border-radius: 2px;
+  cursor: pointer;
+  color: #243e5f;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  min-width: 180px;
+   height: 60px;  
+  justify-content: flex-start;
+
+}
+
+
+button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+  background-color: inherit;     
+  color: inherit;            
+}
+
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+.icon-wrapper {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(194, 194, 194);
+  
+}
+
+
+
+.icon-box {
+  font-size: 1.5rem;
+  
+  
+}
+
+.icon-wrapper svg {
+  color: rgb(71, 71, 221);
+}

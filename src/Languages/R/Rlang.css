@@ -1,0 +1,49 @@
+.r-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f0f4f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+}
+
+.r-container h1 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2769aa;
+}
+
+.r-container h1 svg {
+  margin-right: 0.5rem;
+}
+
+.r-container h2 {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  color: #34495e;
+}
+
+.r-container ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.r-container ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.code-block {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 1rem;
+  white-space: pre-wrap;
+  line-height: 1.5;
+}

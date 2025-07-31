@@ -1,0 +1,138 @@
+
+.navbar-head {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1150px;
+  margin: auto;
+  padding: 0 20px 0 30px;
+  
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.navbar ul li:hover {
+  color: #e1e8f4;
+}
+
+.navbar a:hover {
+  color: #005eff;
+}
+
+
+
+
+.navbar ul li {
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+.navbar ul li::after {
+ 
+  font-size: 12px;
+  margin-left: 4px;
+  color: #888;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #005eff;
+}
+
+.logo span {
+  color: #9d00ff;
+}
+
+.pro-badge {
+  background-color: #f3eaff;
+  color: #9d00ff;
+  padding: 2px 6px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-right: 6px;
+  border: 1px solid #9d00ff;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid white;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 0 20px;
+  flex-grow: 1;
+  max-width: 400px;
+}
+
+form input {
+  border: none;
+  outline: none;
+  background: white;
+  padding-left: 8px;
+  width: 100%;
+  font-size: 18px;
+  color: #555;
+}
+
+form::before {
+  
+  font-size: 18px;
+  color: #f9f6f6;
+}
+
+.cls-button{
+  background-color:#ccdfff ;
+  border: 1px solid #8cafec;
+  color: #739feb;
+  padding: 24px ;
+  height: 54px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  align-items: center;
+}
+
+.cls-button:hover {
+  background-color: #95b3e8;
+  color: rgb(107, 151, 181);
+}
+
+.pro-box {
+  background-color: #f8f7f7;
+  border: 1px solid rgb(121, 82, 218);
+  color: rgb(121, 82, 218);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-right: 5px;
+  font-size: 0.8rem;
+}

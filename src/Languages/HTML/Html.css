@@ -1,0 +1,50 @@
+.html-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff4f0; /* light orange-ish */
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e34f26; /* HTML orange */
+}
+
+.html-container h1 {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e34f26;
+}
+
+.html-container h1 svg {
+  margin-right: 0.5rem;
+}
+
+.html-container h2 {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  color: #bf3f1f;
+}
+
+.html-container ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.html-container ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.code-block {
+  background-color: #1e1e1e;
+  color: #f06529; /* HTML orange */
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 1rem;
+  white-space: pre-wrap;
+  line-height: 1.5;
+  overflow-x: auto;
+}

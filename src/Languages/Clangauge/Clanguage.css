@@ -1,0 +1,44 @@
+.c-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f1f8ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #00599c;
+}
+
+.c-container h1 {
+  display: flex;
+  align-items: center;
+  color: #00599c;
+}
+
+.c-container h1 svg {
+  margin-right: 0.5rem;
+}
+
+.c-container h2 {
+  margin-top: 1.5rem;
+  color: #003e6b;
+}
+
+.c-container ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.c-container ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.code-block {
+  background-color: #1e1e1e;
+  color: #00bfff;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+}

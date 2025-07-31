@@ -1,0 +1,44 @@
+.kotlin-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+   background-color: #dddce1;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #161717;
+}
+
+.kotlin-container h1 {
+  display: flex;
+  align-items: center;
+  color: #5a9ac3;
+}
+
+.kotlin-container h1 svg {
+  margin-right: 0.5rem;
+}
+
+.kotlin-container h2 {
+  margin-top: 1.5rem;
+  color: #5a9ac3;
+}
+
+.kotlin-container ul {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.kotlin-container ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.code-block {
+  background-color: #1e1e1e;
+  color: #b18bff;
+  padding: 1rem;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  white-space: pre-wrap;
+}
